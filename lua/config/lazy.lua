@@ -28,8 +28,7 @@ require("lazy").setup({
         { "rebelot/kanagawa.nvim", lazy = false },
         { "tahayvr/matteblack.nvim", lazy = false },
         { "EdenEast/nightfox.nvim", lazy = false },
-        { "rose-pine/neovim",          name = "rose-pine", lazy = false },
-        { "artanikin/vim-synthwave84", name = "synthwave84", lazy = false }
+        { "rose-pine/neovim",          name = "rose-pine", lazy = false }
     },
     defaults = {
         -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -40,7 +39,7 @@ require("lazy").setup({
         version = false, -- always use the latest git commit
         -- version = "*", -- try installing the latest stable version for plugins that support semver
     },
-    install = { colorscheme = { "catppuccin-latte", "catppuccin-mocha", "tokyonight", "habamax", "gruvbox", "everforest", "kanagawa", "nordfox", "matteblack", "rose-pine-dawn", "synthwave84" } },
+    install = { colorscheme = { "catppuccin-latte", "catppuccin-mocha", "tokyonight", "habamax", "gruvbox", "everforest", "kanagawa", "nordfox", "matteblack", "rose-pine-dawn" } },
     checker = {
         enabled = true, -- check for plugin updates periodically
         notify = false, -- notify on update

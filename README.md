@@ -36,10 +36,9 @@ spec = {
         { "rebelot/kanagawa.nvim" },
         { "tahayvr/matteblack.nvim" },
         { "EdenEast/nightfox.nvim" },
-        { "rose-pine/neovim",          name = "rose-pine" },
-        { "artanikin/vim-synthwave84", name = "synthwave84" }
+        { "rose-pine/neovim",          name = "rose-pine" }
     },
-install = { colorscheme = { "catppuccin-latte", "catppuccin", "tokyonight", "habamax", "gruvbox", "everforest", "kanagawa", "nordfox", "matteblack", "rose-pine-dawn", "synthwave84" } },
+install = { colorscheme = { "catppuccin-latte", "catppuccin", "tokyonight", "habamax", "gruvbox", "everforest", "kanagawa", "nordfox", "matteblack", "rose-pine-dawn" } },
 ```
 
 Then, we need a function to reload the theme based on Omarchy's current theme symlink target. This function will check if the theme has changed and apply the new theme without restarting Neovim.
